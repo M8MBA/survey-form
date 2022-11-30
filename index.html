@@ -8,17 +8,23 @@
   <title>Survey Form</title>
 </head>
 <body>
-  <h1 id="title">Survey Form</h1>
-  <p id="description">Take this survey or I will hunt you down</p>
+  <header>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Take this survey or I will hunt you down</p>
+  </header>
   <form id="survey-form">
-  <fieldset>
-    <label>Name</label>
-    <input id="name" type="text" placeholder="please enter your full name">
-    <label>Email</label>
-    <input id="email" placeholder="enter email">
-    <label>Age (optional)</label>
-    <input id="number" type="number" placeholder="enter number" min="10" max="120">
-  </fieldset>
+    <div class="form-group">
+      <label>Name</label>
+      <input id="name" class="form-control" type="text" placeholder="please enter your full name">
+    </div>
+    <div class="form-group">
+      <label>Email</label>
+      <input id="email" class="form-control" placeholder="enter email">
+    </div>
+    <div class="form-group">
+      <label>Age (optional)</label>
+      <input id="number" class="form-control" type="number" placeholder="enter number" min="10" max="120">
+    </div>
   <fieldset>
     <p>What is your favorite of these Christmas movies?</p>
     <select id="dropdown" name="referrer"> 
