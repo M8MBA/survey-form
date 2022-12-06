@@ -26,7 +26,7 @@
       <input id="number" class="form-control" type="number" placeholder="enter number" min="10" max="120">
     </div>
   <fieldset class="form-group">
-    <p>What is your favorite of these Christmas movies?</p>
+    <p>Dropdown Selection</p>
     <select id="dropdown" class="form-control" name="referrer"> 
       <option value="">(select one)</option>
       <option value="1">1</option>
@@ -34,12 +34,13 @@
       <option value="1">3</option>
     </select>
   </fieldset>
-  <fieldset>
+  <fieldset class="form-group">
+    <p>Radio Selection</p>
     <label>
       <input class="input-radio" name="user-recommend" value="" type="radio" checked=""/>
-      select 1
+       select 1
     </label>
-    <label><input type="radio" name="selection"/>select 2</label>
+    <label><input class="input-radio" type="radio" name="user-recommend"/>select 2</label>
   </fieldset>
   <fieldset>
     <button id="submit">submit</button>
